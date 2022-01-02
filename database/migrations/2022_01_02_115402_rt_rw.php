@@ -13,7 +13,11 @@ class RtRw extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('rt_rw', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('rt_rw',5);           
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +27,6 @@ class RtRw extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('rt_rw');
     }
 }
