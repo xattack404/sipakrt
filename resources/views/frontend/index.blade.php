@@ -42,7 +42,8 @@
             </div>
             <div class="col-lg-8 mx-auto">
                 <p class="text-faded mb-5">Sampaikan jika terjadi masalah di lingkungan dan Sosial, disini.</p><a
-                    class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services">Lapor pak!</a>
+                    class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="{{ route('login') }}">Lapor
+                    pak!</a>
             </div>
         </div>
     </header>
@@ -96,7 +97,8 @@
                     <hr class="light my-4">
                     <p class="text-faded mb-4">Jika anda belum memiliki akses masuk, silahkan melakukan pendaftaran
                         terlebih dahulu dengan klik Tombol dibawah ini.</p><a
-                        class="btn btn-light btn-xl js-scroll-trigger" role="button" href="#services">Daftar
+                        class="btn btn-light btn-xl js-scroll-trigger" role="button"
+                        href="{{ route('register') }}">Daftar
                         Sekarang!</a>
                 </div>
             </div>

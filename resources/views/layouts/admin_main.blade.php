@@ -208,18 +208,18 @@
                                 </li> --}}
                             </ul>
                         </li>
-                        <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Blank
-                                    Page</span></a></li>
-
                         <li class="menu-header">Pengaduan Masuk</li>
                         <li>
                             <a class="nav-link" href="{{ route('dashboard') }}">
                                 <i class="far fa-file-alt"></i> <span>Pengaduan Masuk</span></a>
                         </li>
-                        {{-- <li>
+                        <li class="menu-header">Manejemen Penggguna</li>
+                        <li>
                             <a class="nav-link" href="{{ route('dashboard') }}">
-                                <i class="far fa-file-alt"></i> <span>Pengajuan Masuk</span></a>
-                        </li> --}}
+                                <i class="far fa-file-alt"></i> <span>Warga</span></a>
+                            <a class="nav-link" href="{{ route('dashboard') }}">
+                                <i class="far fa-file-alt"></i> <span>Ketua RT</span></a>
+                        </li>
 
 
                         <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
